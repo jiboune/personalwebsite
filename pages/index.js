@@ -141,7 +141,7 @@ export default function Home() {
                                         <div className="mt-2">
                                             <h2 className="text-white text-xs  font-work">Création de site internet</h2>
                                             <h2 className="text-white text-xs  font-work">Création de site e-commerce</h2>
-                                            <h2 className="text-white text-xs  font-work">Création d&apos;pplication mobile</h2>
+                                            <h2 className="text-white text-xs  font-work">Création d&apos;application mobile</h2>
                                         </div>
                                     </div>
 
@@ -212,18 +212,18 @@ export default function Home() {
                                     <section className="">
 
                                         <div>
-                                            <div className="w-full block align-middle text-center mt-12"><Image src="/logo/logo_enovap.svg" alt="enovap" width={130} height={30} className="w-full" /></div>
-                                            <div className="w-full block align-middle text-center mt-12"><Image src="/logo/logo-hervet.png" alt="hervet manufacturier" width={140} height={30} /></div>
+                                            <div className="w-full max-w-[120px] mx-auto block align-middle text-center mt-8 sm:mt-12"><Image layout="responsive" src="/logo/logo_enovap.svg" alt="enovap" width={130} height={30} className="w-full" /></div>
+                                            <div className="w-full max-w-[120px] mx-auto block align-middle text-center mt-12"><Image layout="responsive" src="/logo/logo-hervet.png" alt="hervet manufacturier" width={140} height={30} /></div>
                                         </div>
 
                                         <div className="">
-                                            <div className="w-full block align-middle text-center mt-12"><Image src="/logo/police-logo.png" alt="policestudio" width={155} height={19} /></div>
-                                            <div className="w-full block align-middle text-center mt-12"><Image src="/logo/logo_us.svg" alt="union school" width={130} height={35} /></div>
+                                            <div className="w-full max-w-[120px] mx-auto block align-middle text-center mt-12"><Image layout="responsive" src="/logo/police-logo.png" alt="policestudio" width={155} height={19} /></div>
+                                            <div className="w-full max-w-[120px] mx-auto block align-middle text-center mt-12"><Image layout="responsive" src="/logo/logo_us.svg" alt="union school" width={130} height={35} /></div>
                                         </div>
 
                                         <div className="">
-                                            <div className="w-full block align-middle text-center mt-12"><Image src="/logo/logo_dlva.svg" alt="dlva" width={130} height={80} /></div>
-                                            <div className="w-full block align-middle text-center mt-12"><Image src="/logo/logo_demeter.svg" alt="demeter" width={130} height={19} /></div>
+                                            <div className="w-full max-w-[120px] mx-auto block align-middle text-center mt-12"><Image layout="responsive" src="/logo/logo_dlva.svg" alt="dlva" width={130} height={80} /></div>
+                                            <div className="w-full max-w-[120px] mx-auto block align-middle text-center mt-12"><Image layout="responsive" src="/logo/logo_demeter.svg" alt="demeter" width={130} height={19} /></div>
                                         </div>
 
                                     </section>
@@ -265,7 +265,7 @@ export default function Home() {
 
                                     <div className="text-deep-blue text-5xl font-bold">☀️</div>
                                     <div>
-                                        <div className="text-deep-blue text-3xl mt-2">Quel est votre projet ? </div>
+                                        <div className="text-deep-blue text-2xl sm:text-3xl mt-2">Quel est votre projet ? </div>
                                         <p className="text-med-gray mt-4">Vous vous demandez <strong>comment créer un site internet ?</strong> ou <strong>comment lancer sa boutique en ligne</strong> ? Choisissez un créneau et discutons en 15 minutes par téléphone ou visio.</p>
                                     </div>
                                     {/* <div>
