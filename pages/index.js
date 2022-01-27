@@ -55,7 +55,7 @@ export default function Home() {
                 <meta name="twitter:card" content="summary_large_image" />
 
                 <meta property="og:site_name" content="Jean-Baptiste Matte - Développer web full-stack" />
-                <meta property="og:title" content="Jean-Baptiste Matte - Développer web full-stack" />
+                <meta property="og:title" content="Jean-Baptiste Matte - Développeur web full-stack" />
                 <meta property="description" content="Développeur web freelance et créateur de site internet depuis 2014. Développement web, création ou refonte de site internet, e-commerce, référencement" />
                 <meta property="og:image" itemProp="image" content="https://www.jeanbaptistematte.com/preview.jpg" />
                 <meta property="og:type" content="website" />
