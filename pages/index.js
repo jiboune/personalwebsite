@@ -115,7 +115,7 @@ export default function Home() {
                                         Prendre rdv 15min
                                     </a>
                                 </div>
-                                <p className="text-med-gray text-xs">2022 Jean-Baptiste Matte, Tout droits réservés.</p>
+                                <p className="text-med-gray text-xs">2022 Jean-Baptiste Matte, Tous droits réservés.</p>
                                 <p className="text-med-gray text-xs">Made with ♡ à Marseille</p>
                             </div>
                         </div>
@@ -286,7 +286,7 @@ export default function Home() {
                                                 Prendre rendez-vous
                                             </a>
                                         </div>
-                                        <p className="text-med-gray text-xs">2022 Jean-Baptiste Matte, Tout droits réservés.</p>
+                                        <p className="text-med-gray text-xs">2022 Jean-Baptiste Matte, Tous droits réservés.</p>
                                         <p className="text-med-gray text-xs">Made with ♡ à Marseille</p>
                                         {/* <p className="text-deep-blue mt-2 text-xs">Mention Légales</p> */}
                                     </div>
