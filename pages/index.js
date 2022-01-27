@@ -95,16 +95,16 @@ export default function Home() {
                     </div>
 
 
-                    <div id="menu-content" className={`h-full p-8 pl-20 absolute bg-med-blue z-20 ease-out transition-all overflow-hidden duration-700 ${open ? 'w-[80%] sm:w-full' : 'w-0 p-0 pl-0'}`}>
+                    <div id="menu-content" className={`h-full p-8 pl-20 absolute bg-med-blue z-20 ease-out transition-all overflow-hidden duration-700 ${open ? 'w-full' : 'w-0 p-0 pl-0'}`}>
 
                         <div className={`flex flex-col min-h-full justify-between opacity-0 ${open ? ' transition-opacity opacity-100 duration-700 delay-700' : ''}`}>
 
                             <div><a href="https://www.linkedin.com/in/jeanbaptiste-matte/" target="_blank"  rel="noreferrer" className="text-white tracking-wider text-indigo-600">Linkedin</a></div>
                             <div>
-                                <div className="text-white text-xl sm:text-2xl font-work">Vous souhaitez <strong className="font-normal">renforcer votre présence digitale</strong> ou <strong className="font-normal">lancer votre activité en ligne</strong> ?</div>
-                                <div className="text-white text-xl sm:text-2xl font-work mt-8">Vous recherchez une solution clée en main ?</div>
-                                <div className="text-white text-xl sm:text-2xl font-work mt-8">Vous cherchez un <strong className="font-normal">développeur web</strong>/full stack pour un client ?</div>
-                                <div className="text-white text-xl sm:text-2xl font-work mt-8 font-semibold underline underline-offset-4">Vous êtes au bon endroit.</div>
+                                <div className="text-white text-lg sm:text-2xl font-work">Vous souhaitez <strong className="font-normal">renforcer votre présence digitale</strong> ou <strong className="font-normal">lancer votre activité en ligne</strong> ?</div>
+                                <div className="text-white text-lg sm:text-2xl font-work mt-8">Vous recherchez une solution clée en main ?</div>
+                                <div className="text-white text-lg sm:text-2xl font-work mt-8">Vous cherchez un <strong className="font-normal">développeur web</strong>/full stack pour un client ?</div>
+                                <div className="text-white text-lg sm:text-2xl font-work mt-8 font-semibold underline underline-offset-4">Vous êtes au bon endroit.</div>
                             </div>
                             <div>
                                 <div className="rounded-md mb-3">
@@ -112,7 +112,7 @@ export default function Home() {
                                         href="https://calendly.com/jeanbaptiste-matte/creation-site-internet" target="_blank" rel="noreferrer"
                                         className="w-full md:w-fit text-xs flex items-center justify-center px-2 sm:px-8 py-2 sm:py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-2 md:text-lg md:px-10 font-work"
                                     >
-                                        Prendre rendez-vous 15min
+                                        Prendre rdv 15min
                                     </a>
                                 </div>
                                 <p className="text-med-gray text-xs">2022 Jean-Baptiste Matte, Tout droits réservés.</p>
@@ -169,34 +169,34 @@ export default function Home() {
                                     <div className="text-white text-5xl font-semibold  font-work">01</div>
                                     <h3 className="text-white uppercase mt-2 tracking-wider text-xs font-work">Domaine d&apos;expertise</h3>
 
-                                    <section className="mt-6 sm:mt-20">
-                                        <h4 className="text-white text-2xl font-semibold  font-work">Site web</h4>
+                                    <section className="mt-4 sm:mt-20">
+                                        <h4 className="text-white text-xl font-semibold  font-work">Site web</h4>
                                         <p className="text-white text-sm font-work">CMS : Wordpress, Webflow</p>
                                         <p className="text-white text-sm font-work">Front : Angular, React, NextJS (AMP)</p>
                                         <p className="text-white text-sm font-work">Back : Nginx, NodeJS, PHP, NestJS</p>
                                         <p className="text-white text-sm font-work">DevOps : Git, Docker, Vercel</p>
                                     </section>
 
-                                    <section className="mt-4">
-                                        <h4 className="text-white text-2xl font-semibold font-work">Boutique en ligne</h4>
+                                    <section className="mt-2">
+                                        <h4 className="text-white text-xl font-semibold font-work">Boutique en ligne</h4>
                                         <p className="text-white text-sm font-work ">Woocommerce, Prestashop, Shopify</p>
                                         <p className="text-white italic text-sm font-work">Installation, configuration, dev. modules</p>
                                     </section>
 
-                                    <section className="mt-4">
-                                        <h4 className="text-white text-2xl font-semibold font-work">Applications mobiles</h4>
+                                    <section className="mt-2">
+                                        <h4 className="text-white text-xl font-semibold font-work">Applications mobiles</h4>
                                         <p className="text-white text-sm font-work">Progressive Web Apps : Ionic</p>
                                         <p className="text-white text-sm font-work">Natives : iOS - Swift</p>
                                     </section>
 
-                                    <section className="mt-4">
-                                        <h4 className="text-white text-2xl font-semibold font-work">Design</h4>
+                                    <section className="mt-2">
+                                        <h4 className="text-white text-xl font-semibold font-work">Design</h4>
                                         <p className="text-white text-sm font-work">Création d&apos;identité visuelle/branding, Refonte UX, Création UI (Figma, Sketch, Suite Adobe)</p>
 
                                     </section>
 
-                                    <section className="mt-4">
-                                        <h4 className="text-white text-2xl font-semibold font-work">Marketing</h4>
+                                    <section className="mt-2">
+                                        <h4 className="text-white text-xl font-semibold font-work">Marketing</h4>
                                         <p className="text-white text-sm font-work">GA, GTM, Facebook Pixel, Conversion API (Server-Side), Growth Hacking (Instagram/Twitter)</p>
                                     </section>
 
