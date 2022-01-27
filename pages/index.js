@@ -25,8 +25,6 @@ export default function Home() {
         mousewheel: true,
         mousewheelControl: true,
         breakpoints: {
-            // when window width is >= 320px
-
             // when window width is >= 480px
             480: {
                 slidesPerView: 1,
@@ -50,7 +48,7 @@ export default function Home() {
 
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&family=PT+Serif:ital@0;1&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300&display=swap" rel="stylesheet" />
 
 
@@ -101,7 +99,7 @@ export default function Home() {
 
                         <div className={`flex flex-col min-h-full justify-between opacity-0 ${open ? ' transition-opacity opacity-100 duration-700 delay-700' : ''}`}>
 
-                            <div><a href="#" target="_blank" className="text-white tracking-wider text-indigo-600">Linkedin</a></div>
+                            <div><a href="https://www.linkedin.com/in/jeanbaptiste-matte/" target="_blank"  rel="noreferrer" className="text-white tracking-wider text-indigo-600">Linkedin</a></div>
                             <div>
                                 <div className="text-white text-xl sm:text-2xl font-work">Vous souhaitez <strong className="font-normal">renforcer votre présence digitale</strong> ou <strong className="font-normal">lancer votre activité en ligne</strong> ?</div>
                                 <div className="text-white text-xl sm:text-2xl font-work mt-8">Vous recherchez une solution clée en main ?</div>
@@ -111,7 +109,7 @@ export default function Home() {
                             <div>
                                 <div className="rounded-md mb-3">
                                     <a
-                                        href="https://calendly.com/jeanbaptiste-matte/creation-site-internet" target="_blank"
+                                        href="https://calendly.com/jeanbaptiste-matte/creation-site-internet" target="_blank" rel="noreferrer"
                                         className="w-full md:w-fit text-xs flex items-center justify-center px-2 sm:px-8 py-2 sm:py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-2 md:text-lg md:px-10 font-work"
                                     >
                                         Prendre rendez-vous 15min
@@ -143,7 +141,7 @@ export default function Home() {
                                         <div className="mt-2">
                                             <h2 className="text-white text-xs  font-work">Création de site internet</h2>
                                             <h2 className="text-white text-xs  font-work">Création de site e-commerce</h2>
-                                            <h2 className="text-white text-xs  font-work">Création d'application mobile</h2>
+                                            <h2 className="text-white text-xs  font-work">Création d&apos;pplication mobile</h2>
                                         </div>
                                     </div>
 
@@ -155,7 +153,7 @@ export default function Home() {
                                         <p className="text-white text-sm mb-4  font-work">Conception de solutions digitales depuis 2014. De l&apos;idée à la mise en ligne, je vous accompagne de A à Z pour que <span className="font-semibold">votre projet soit un succès</span>.</p>
                                         <div className="rounded-md shadow">
                                             <a
-                                                href="https://calendly.com/jeanbaptiste-matte/creation-site-internet" target="_blank"
+                                                href="https://calendly.com/jeanbaptiste-matte/creation-site-internet" target="_blank" rel="noreferrer"
                                                 className="w-full md:w-fit flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-2 md:text-lg md:px-10 font-work"
                                             >
                                                 Prendre rendez-vous
@@ -282,7 +280,7 @@ export default function Home() {
                                     <div>
                                         <div className="rounded-md mb-5">
                                             <a
-                                                href="https://calendly.com/jeanbaptiste-matte/creation-site-internet" target="_blank"
+                                                href="https://calendly.com/jeanbaptiste-matte/creation-site-internet" target="_blank" rel="noreferrer"
                                                 className="w-full md:w-fit flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-2 md:text-lg md:px-10 font-work"
                                             >
                                                 Prendre rendez-vous
