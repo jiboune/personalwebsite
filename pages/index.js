@@ -42,9 +42,9 @@ export default function Home() {
     return (
         <div >
             <Head>
-                <title>JBM - Développeur web freelance </title>
-                <meta name="description" content="Jean-Baptiste Matte, Développeur web freelance sur Aix-Marseille" />
+                <title>Jean-Baptiste Matte - Développeur web freelance sur Aix-Marseille</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="description" content="Développeur web freelance et créateur de site internet depuis 2014. Développement web, création ou refonte de site internet, e-commerce, référencement" />
 
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -56,7 +56,6 @@ export default function Home() {
 
                 <meta property="og:site_name" content="Jean-Baptiste Matte - Développer web full-stack" />
                 <meta property="og:title" content="Jean-Baptiste Matte - Développeur web full-stack" />
-                <meta property="description" content="Développeur web freelance et créateur de site internet depuis 2014. Développement web, création ou refonte de site internet, e-commerce, référencement" />
                 <meta property="og:image" itemProp="image" content="https://www.jeanbaptistematte.com/preview.jpg" />
                 <meta property="og:type" content="website" />
                 <meta property="og:updated_time" content="1643278539" />
