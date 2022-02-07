@@ -42,9 +42,9 @@ export default function Home() {
     return (
         <div >
             <Head>
-                <title>Jean-Baptiste Matte - Développeur web freelance sur Aix-Marseille</title>
+                <title>Jean-Baptiste Matte - Développeur web freelance - Aix-Marseille</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta property="description" content="Développeur web freelance et créateur de site internet depuis 2014. Développement web, création ou refonte de site internet, e-commerce, référencement" />
+                <meta name="description" content="Développeur web freelance et créateur de site internet depuis 2014. Développement web, création ou refonte de site internet, e-commerce, référencement" />
 
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -75,6 +75,7 @@ export default function Home() {
                             <nav>
                                 <button
                                     className=" w-10 h-10 text-gray-500 rounded-sm focus:outline-none"
+                                    aria-label="open menu"
                                     onClick={() => setOpen(!open)}>
                                     <div className="absolute block w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
                                         <span
